@@ -33,5 +33,5 @@ deploy:
   #특정 branch에만 해당 aws서버에 올릴 수 있게 설정 
   on:
     branch: main
-access_key_id: $AWS_ACCESS_KEY
-secret_access_key: $AWS_SECRET_ACCESS_KEY
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
