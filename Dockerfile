@@ -10,7 +10,7 @@ COPY ./ ./
 
 # ENV CHOKIDAR_USEPOLLING=true
 
-CMD ["npm", "run", "build"]
+RUN npm run build
 
 #nginx base image
 FROM nginx 
